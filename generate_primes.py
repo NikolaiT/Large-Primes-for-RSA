@@ -122,7 +122,7 @@ def generate_primes(n=512, k=1):
     return primes
 
 def main():
-    n = 2048
+    n = 1024
     primes = generate_primes(n=n)
     for p in primes:
         print('{} is prime with bitlength={}'.format(p, n))
